@@ -28,7 +28,7 @@ background-color: #bcb8ee;
 
 section{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background-color: #7677d4;
 }
 
@@ -39,7 +39,7 @@ img {
 }
 
 .portrait {
-    position: relative;
+    position:relative;
     filter: grayscale(50%) ;
 }
 
