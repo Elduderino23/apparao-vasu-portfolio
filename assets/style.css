@@ -171,8 +171,18 @@ footer img {
 
 }
 
-@media screen and (min-width: 400px) {
+
+@media screen and (min-width: 520px) {
     body {
         background-color: #7677d4;
+        position: relative;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 520px) {
+    main {
+        position: relative;
+        margin: auto;
     }
 }
