@@ -18,7 +18,6 @@ header {
     flex: 500;
     text-align: center;
     margin-right: 50px;
-    background-image: linear-gradient(#bcb8ee, #beb3ee)
 }
 
 .head {
@@ -134,7 +133,7 @@ footer img {
 }
 
 .gif_1:hover .image {
-    opacity: 0.9;
+    opacity: 0.5;
 }
 
 .gif_1:hover .gif_1_middle {
@@ -144,8 +143,8 @@ footer img {
 .text {
     background-color: #7677d4;
     color: #3c4674;
-    font-size: 16px;
-    padding: 16px 32px;
+    font-size: 25px;
+    padding: 10px 20px;
 }
 
 .Bio {
@@ -172,17 +171,45 @@ footer img {
 }
 
 
-@media screen and (min-width: 520px) {
+@media screen and (max-width: 520px) {
+    .bio_section {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
     body {
-        background-color: #7677d4;
-        position: relative;
-        margin: auto;
+        width: 800px;
+    }
+
+    .head {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+    .Websites {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+
     }
 }
 
-@media screen and (min-width: 520px) {
+/* @media screen and (min-width: 520px) {
     main {
         position: relative;
         margin: auto;
     }
-}
+} */
