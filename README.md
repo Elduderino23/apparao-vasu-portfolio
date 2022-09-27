@@ -23,7 +23,7 @@ In order to tackle the daunting task of building a portfolio website from scratc
 
 ![](assets/images/Portfolio_Wireframe.jpeg)
 
-After the general idea was formed and put on a sheet of paper, the next task was to create a skeleton of the website through the html file. The decision was made early on to make clickable gifs that sent the user to different websites reflective of the portfolio. This was done through inspecting the console and coping the the following src= " " seen here:
+After the general idea was formed and put on a sheet of paper, the next task was to create a skeleton of the website through the html file. The decision was made early on to make clickable gifs that sent the user to different websites reflective of the portfolio. This was done through inspecting the console and copying the the following src= " " seen here:
 
 ![](2022-09-26-15-54-18.png)
 
